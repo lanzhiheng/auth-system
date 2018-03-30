@@ -33,6 +33,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'bcrypt', :require => "bcrypt"
+
+# user for add friendly slug
+# https://github.com/norman/friendly_id
+gem 'friendly_id', '~> 5.1.0'
+
+gem 'pry-rails', :group => :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

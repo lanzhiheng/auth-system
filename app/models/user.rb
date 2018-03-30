@@ -1,6 +1,8 @@
-require 'bcrypt'
-
 class User < ApplicationRecord
+  extend FriendlyId
+
+  friendly_id :name, use: [:slugged, :finders]
+
   attr_accessor :password
 
   before_save :encrypt_password
