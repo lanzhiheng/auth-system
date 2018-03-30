@@ -38,6 +38,11 @@ gem 'bcrypt', :require => "bcrypt"
 # https://github.com/norman/friendly_id
 gem 'friendly_id', '~> 5.1.0'
 
+
+# devise is a flexible authentication solution
+# https://github.com/plataformatec/devise
+gem 'devise'
+
 gem 'pry-rails', :group => :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
